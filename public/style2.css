@@ -1,0 +1,65 @@
+/* /=================================== section 2 ============================================ */
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 83%;
+}
+
+.row {
+  display: flex;
+}
+
+.parallex {
+  position: absolute;
+  top: 80%;
+  width: 100vw;
+}
+
+.card-container {
+  margin: 10px;
+  background: #642b73;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom right,
+      #0a133a,
+      #410e20);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom right,
+      #0a133a,
+      #410e20);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.card-img {
+  width: 80%;
+}
+
+
+.FAQC {
+  color: aliceblue;
+}
+
+#FAQ {
+  position: static;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.faq-container {
+  width: 80vw;
+  background-color: #132144;
+  padding: 25px;
+  margin: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  visibility: visible;
+}
